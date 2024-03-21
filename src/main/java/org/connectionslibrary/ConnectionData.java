@@ -31,7 +31,7 @@ public class ConnectionData {
         config.addDataSourceProperty("cachePrepStmts", "true");
         config.addDataSourceProperty("prepStmtCacheSize", "300");
         config.addDataSourceProperty("prepStmtCacheSqlLimit", "2048");
-        config.addDataSourceProperty("socketTimeout", "30000");
+        config.addDataSourceProperty("socketTimeout", "5000");
         Properties properties = new Properties();
         properties.put("serverName", host);
         properties.put("port", port);

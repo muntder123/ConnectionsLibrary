@@ -14,7 +14,7 @@ import java.util.List;
  * @Author <a href="https://github.com/Cobeine">Cobeine</a>
  */
 
-public abstract class LinkedSQLTable<C extends ConnectionData> {
+public abstract class LinkedSQLTable {
     private String name;
     public LinkedSQLTable(String name) {
         this.name = name;

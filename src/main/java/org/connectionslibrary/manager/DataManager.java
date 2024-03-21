@@ -10,7 +10,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 public class DataManager {
 
-    private Map<UUID, User> objectsMap = new ConcurrentHashMap<>();
+    private final Map<UUID, User> objectsMap = new ConcurrentHashMap<>();
 
     private final ExampleLinkedSQLTable exampleLinkedSQLTable;
 
