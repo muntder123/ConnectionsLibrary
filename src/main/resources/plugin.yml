@@ -1,0 +1,4 @@
+name: ConnectionsLibrary
+version: '${project.version}'
+main: org.connectionslibrary.ConnectionsLibrary
+api-version: '1.20'
