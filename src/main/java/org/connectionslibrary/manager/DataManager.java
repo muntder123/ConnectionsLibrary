@@ -1,12 +1,11 @@
 package org.connectionslibrary.manager;
 
-import org.connectionslibrary.cobbine.SQLEntry;
+import org.connectionslibrary.connections.SQLEntry;
 import org.connectionslibrary.example.ExampleLinkedSQLTable;
 import org.connectionslibrary.example.User;
 
 import java.util.Map;
 import java.util.UUID;
-import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class DataManager {

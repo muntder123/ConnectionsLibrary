@@ -1,12 +1,7 @@
-package org.connectionslibrary.cobbine;
+package org.connectionslibrary.connections;
 
-import org.connectionslibrary.ConnectionData;
-
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
 import java.util.List;
 import java.util.Optional;
-import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 

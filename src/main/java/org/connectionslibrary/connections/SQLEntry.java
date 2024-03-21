@@ -1,4 +1,4 @@
-package org.connectionslibrary.cobbine;
+package org.connectionslibrary.connections;
 
 import lombok.Getter;
 import org.connectionslibrary.core.DataTypes;

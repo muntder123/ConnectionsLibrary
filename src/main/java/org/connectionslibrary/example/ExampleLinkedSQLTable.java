@@ -2,12 +2,11 @@ package org.connectionslibrary.example;
 
 
 import org.connectionslibrary.ConnectionData;
-import org.connectionslibrary.cobbine.LinkedSQLTable;
-import org.connectionslibrary.cobbine.SQLEntry;
+import org.connectionslibrary.connections.LinkedSQLTable;
+import org.connectionslibrary.connections.SQLEntry;
 import org.connectionslibrary.core.DataTypes;
 
 import java.util.UUID;
-import java.util.concurrent.CompletableFuture;
 
 
 public class ExampleLinkedSQLTable extends LinkedSQLTable<ConnectionData> {
